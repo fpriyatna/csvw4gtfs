@@ -100,6 +100,7 @@
     ], 
     "@id": "https://iisg.amsterdam/agency.txt/column/agency_name", 
     "name": "agency_name", 
+    "required": true,
     "dc:description": "agency_name"
    }, 
    {
@@ -108,7 +109,8 @@
      "agency_url"
     ], 
     "@id": "https://iisg.amsterdam/agency.txt/column/agency_url", 
-    "name": "agency_url", 
+    "name": "agency_url",
+    "required": true, 
     "dc:description": "agency_url"
    }, 
    {
@@ -117,7 +119,8 @@
      "agency_timezone"
     ], 
     "@id": "https://iisg.amsterdam/agency.txt/column/agency_timezone", 
-    "name": "agency_timezone", 
+    "name": "agency_timezone",
+    "required": true, 
     "dc:description": "agency_timezone"
    }, 
    {
