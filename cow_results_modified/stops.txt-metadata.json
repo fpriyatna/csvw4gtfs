@@ -130,7 +130,7 @@
     "dc:description": "stop_url"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "wheelchair_boarding"
     ], 
