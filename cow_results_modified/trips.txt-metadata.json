@@ -148,5 +148,13 @@
     "dc:description": "wheelchair_accessible"
    }
   ]
+  ,
+  "foreignKeys": [{
+    "columnReference": "route_id",
+    "reference": {
+      "resource": "routes.csv",
+      "columnReference": "route_id"
+    }
+  }]
  }
 }
