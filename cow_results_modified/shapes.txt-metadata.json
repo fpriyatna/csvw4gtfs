@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/shapes.txt/column/shape_id", 
     "name": "shape_id", 
+    "required": true,
     "dc:description": "shape_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/shapes.txt/column/shape_pt_lat", 
     "name": "shape_pt_lat", 
+    "required": true,
     "dc:description": "shape_pt_lat"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/shapes.txt/column/shape_pt_lon", 
     "name": "shape_pt_lon", 
+    "required": true,
     "dc:description": "shape_pt_lon"
    }, 
    {
@@ -118,6 +121,7 @@
     ], 
     "@id": "https://iisg.amsterdam/shapes.txt/column/shape_pt_sequence", 
     "name": "shape_pt_sequence", 
+    "required": true,
     "dc:description": "shape_pt_sequence"
    }
   ]
