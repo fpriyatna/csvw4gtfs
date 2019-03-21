@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stops.txt/column/stop_id", 
     "name": "stop_id", 
+    "required": true,
     "dc:description": "stop_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stops.txt/column/stop_name", 
     "name": "stop_name", 
+    "required": true,
     "dc:description": "stop_name"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stops.txt/column/stop_lat", 
     "name": "stop_lat", 
+    "required": true,
     "dc:description": "stop_lat"
    }, 
    {
@@ -118,6 +121,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stops.txt/column/stop_lon", 
     "name": "stop_lon", 
+    "required": true,
     "dc:description": "stop_lon"
    }, 
    {
