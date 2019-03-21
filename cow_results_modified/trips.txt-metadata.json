@@ -149,12 +149,22 @@
    }
   ]
   ,
-  "foreignKeys": [{
-    "columnReference": "route_id",
-    "reference": {
-      "resource": "routes.csv",
-      "columnReference": "route_id"
+  "foreignKeys": [
+    {
+      "columnReference": "route_id",
+      "reference": {
+        "resource": "routes.csv",
+        "columnReference": "route_id"
+      }
     }
-  }]
+    ,
+    {
+      "columnReference": "shape_id",
+      "reference": {
+        "resource": "shapes.csv",
+        "columnReference": "shape_id"
+      }
+    }
+  ]
  }
 }
