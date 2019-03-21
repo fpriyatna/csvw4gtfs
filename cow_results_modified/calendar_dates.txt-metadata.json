@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar_dates.txt/column/service_id", 
     "name": "service_id", 
+    "required": true,
     "dc:description": "service_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar_dates.txt/column/date", 
     "name": "date", 
+    "required": true,
     "dc:description": "date"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar_dates.txt/column/exception_type", 
     "name": "exception_type", 
+    "required": true,
     "dc:description": "exception_type"
    }
   ],
