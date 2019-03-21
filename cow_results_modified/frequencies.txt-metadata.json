@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/frequencies.txt/column/trip_id", 
     "name": "trip_id", 
+    "required": true,
     "dc:description": "trip_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/frequencies.txt/column/start_time", 
     "name": "start_time", 
+    "required": true,
     "dc:description": "start_time"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/frequencies.txt/column/end_time", 
     "name": "end_time", 
+    "required": true,
     "dc:description": "end_time"
    }, 
    {
@@ -118,6 +121,7 @@
     ], 
     "@id": "https://iisg.amsterdam/frequencies.txt/column/headway_secs", 
     "name": "headway_secs", 
+    "required": true,
     "dc:description": "headway_secs"
    }
   ]
