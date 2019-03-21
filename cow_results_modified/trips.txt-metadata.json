@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/trips.txt/column/route_id", 
     "name": "route_id", 
+    "required": true,
     "dc:description": "route_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/trips.txt/column/trip_id", 
     "name": "trip_id", 
+    "required": true,
     "dc:description": "trip_id"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/trips.txt/column/service_id", 
     "name": "service_id", 
+    "required": true,
     "dc:description": "service_id"
    }, 
    {
