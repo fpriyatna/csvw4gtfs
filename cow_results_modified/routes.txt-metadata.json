@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/routes.txt/column/route_id", 
     "name": "route_id", 
+    "required": true,
     "dc:description": "route_id"
    }, 
    {
@@ -127,6 +128,7 @@
     ], 
     "@id": "https://iisg.amsterdam/routes.txt/column/route_type", 
     "name": "route_type", 
+    "required": true,
     "dc:description": "route_type"
    }, 
    {
