@@ -94,7 +94,7 @@
     "dc:description": "service_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "monday"
     ], 
@@ -103,7 +103,7 @@
     "dc:description": "monday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "tuesday"
     ], 
@@ -112,7 +112,7 @@
     "dc:description": "tuesday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "wednesday"
     ], 
@@ -121,7 +121,7 @@
     "dc:description": "wednesday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "thursday"
     ], 
@@ -130,7 +130,7 @@
     "dc:description": "thursday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "friday"
     ], 
@@ -139,7 +139,7 @@
     "dc:description": "friday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "saturday"
     ], 
@@ -148,7 +148,7 @@
     "dc:description": "saturday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "boolean", 
     "titles": [
      "sunday"
     ], 
