@@ -90,7 +90,8 @@
      "service_id"
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/service_id", 
-    "name": "service_id", 
+    "name": "service_id",
+    "required": true, 
     "dc:description": "service_id"
    }, 
    {
@@ -99,7 +100,8 @@
      "monday"
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/monday", 
-    "name": "monday", 
+    "name": "monday",
+    "required": true, 
     "dc:description": "monday"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/tuesday", 
     "name": "tuesday", 
+    "required": true,
     "dc:description": "tuesday"
    }, 
    {
@@ -118,6 +121,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/wednesday", 
     "name": "wednesday", 
+    "required": true,
     "dc:description": "wednesday"
    }, 
    {
@@ -127,6 +131,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/thursday", 
     "name": "thursday", 
+    "required": true,
     "dc:description": "thursday"
    }, 
    {
@@ -136,6 +141,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/friday", 
     "name": "friday", 
+    "required": true,
     "dc:description": "friday"
    }, 
    {
@@ -145,6 +151,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/saturday", 
     "name": "saturday", 
+    "required": true,
     "dc:description": "saturday"
    }, 
    {
@@ -154,6 +161,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/sunday", 
     "name": "sunday", 
+    "required": true,
     "dc:description": "sunday"
    }, 
    {
@@ -163,6 +171,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/start_date", 
     "name": "start_date", 
+    "required": true,
     "dc:description": "start_date"
    }, 
    {
@@ -172,6 +181,7 @@
     ], 
     "@id": "https://iisg.amsterdam/calendar.txt/column/end_date", 
     "name": "end_date", 
+    "required": true,
     "dc:description": "end_date"
    }
   ]
