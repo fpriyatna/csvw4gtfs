@@ -94,7 +94,7 @@
     "dc:description": "service_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "date", 
     "titles": [
      "date"
     ], 
@@ -103,7 +103,7 @@
     "dc:description": "date"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "exception_type"
     ], 
