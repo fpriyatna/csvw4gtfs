@@ -139,5 +139,24 @@
     "dc:description": "pickup_type"
    }
   ]
+  ,
+  "foreignKeys": [
+    {
+      "columnReference": "trip_id",
+      "reference": {
+        "resource": "trips.csv",
+        "columnReference": "trip_id"
+      }
+    }
+    ,
+    {
+      "columnReference": "stop_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }
+  ]
+
  }
 }
