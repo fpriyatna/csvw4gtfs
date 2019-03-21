@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/feed_info.txt/column/feed_publisher_name", 
     "name": "feed_publisher_name", 
+    "required": true,
     "dc:description": "feed_publisher_name"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/feed_info.txt/column/feed_publisher_url", 
     "name": "feed_publisher_url", 
+    "required": true,
     "dc:description": "feed_publisher_url"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/feed_info.txt/column/feed_lang", 
     "name": "feed_lang", 
+    "required": true,
     "dc:description": "feed_lang"
    }
   ]
