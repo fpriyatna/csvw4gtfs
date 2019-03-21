@@ -121,7 +121,7 @@
     "dc:description": "route_long_name"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "route_type"
     ], 
