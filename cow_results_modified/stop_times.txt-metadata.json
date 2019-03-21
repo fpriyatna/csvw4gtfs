@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stop_times.txt/column/trip_id", 
     "name": "trip_id", 
+    "required": true,
     "dc:description": "trip_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stop_times.txt/column/arrival_time", 
     "name": "arrival_time", 
+    "required": true,
     "dc:description": "arrival_time"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stop_times.txt/column/departure_time", 
     "name": "departure_time", 
+    "required": true,
     "dc:description": "departure_time"
    }, 
    {
@@ -118,6 +121,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stop_times.txt/column/stop_id", 
     "name": "stop_id", 
+    "required": true,
     "dc:description": "stop_id"
    }, 
    {
@@ -127,6 +131,7 @@
     ], 
     "@id": "https://iisg.amsterdam/stop_times.txt/column/stop_sequence", 
     "name": "stop_sequence", 
+    "required": true,
     "dc:description": "stop_sequence"
    }, 
    {
