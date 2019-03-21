@@ -121,5 +121,13 @@
     "dc:description": "headway_secs"
    }
   ]
+  ,
+  "foreignKeys": [{
+    "columnReference": "trip_id",
+    "reference": {
+      "resource": "trips.csv",
+      "columnReference": "trip_id"
+      }
+  }]
  }
 }
