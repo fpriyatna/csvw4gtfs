@@ -111,6 +111,13 @@
     "name": "exception_type", 
     "dc:description": "exception_type"
    }
-  ]
+  ],
+  "foreignKeys": [{
+    "columnReference": "service_id",
+    "reference": {
+      "resource": "trips.csv",
+      "columnReference": "service_id"
+    }
+  }]
  }
 }
