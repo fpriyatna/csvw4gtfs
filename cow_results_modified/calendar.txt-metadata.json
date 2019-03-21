@@ -157,7 +157,7 @@
     "dc:description": "sunday"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "date", 
     "titles": [
      "start_date"
     ], 
@@ -166,7 +166,7 @@
     "dc:description": "start_date"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "date", 
     "titles": [
      "end_date"
     ], 
