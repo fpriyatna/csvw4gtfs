@@ -112,7 +112,7 @@
     "dc:description": "shape_pt_lon"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "shape_pt_sequence"
     ], 
