@@ -94,7 +94,7 @@
     "dc:description": "trip_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "time", 
     "titles": [
      "arrival_time"
     ], 
@@ -103,7 +103,7 @@
     "dc:description": "arrival_time"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "time", 
     "titles": [
      "departure_time"
     ], 
@@ -121,7 +121,7 @@
     "dc:description": "stop_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "stop_sequence"
     ], 
@@ -130,7 +130,7 @@
     "dc:description": "stop_sequence"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "pickup_type"
     ], 
