@@ -121,7 +121,7 @@
     "dc:description": "trip_short_name"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "direction_id"
     ], 
@@ -139,7 +139,7 @@
     "dc:description": "shape_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "wheelchair_accessible"
     ], 
