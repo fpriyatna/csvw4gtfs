@@ -94,7 +94,7 @@
     "dc:description": "trip_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "time", 
     "titles": [
      "start_time"
     ], 
@@ -103,7 +103,7 @@
     "dc:description": "start_time"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "time", 
     "titles": [
      "end_time"
     ], 
@@ -112,7 +112,7 @@
     "dc:description": "end_time"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "headway_secs"
     ], 
