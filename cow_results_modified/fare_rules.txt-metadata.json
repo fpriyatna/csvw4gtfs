@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/fare_rules.txt/column/fare_id", 
     "name": "fare_id", 
+    "required": true,
     "dc:description": "fare_id"
    }, 
    {
