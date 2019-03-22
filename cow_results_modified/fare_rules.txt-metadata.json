@@ -131,5 +131,39 @@
     "dc:description": "contains_id"
    }
   ]
+  ,
+  "foreignKeys": [
+    {
+      "columnReference": "route_id",
+      "reference": {
+        "resource": "routes.csv",
+        "columnReference": "route_id"
+      }
+    }
+    ,
+    {
+      "columnReference": "origin_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }
+    ,
+    {
+      "columnReference": "destination_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }
+    ,
+    {
+      "columnReference": "contains_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }        
+  ]  
  }
 }
