@@ -91,6 +91,7 @@
     ], 
     "@id": "https://iisg.amsterdam/transfers.csv/column/from_stop_id", 
     "name": "from_stop_id", 
+    "required": true,
     "dc:description": "from_stop_id"
    }, 
    {
@@ -100,6 +101,7 @@
     ], 
     "@id": "https://iisg.amsterdam/transfers.csv/column/to_stop_id", 
     "name": "to_stop_id", 
+    "required": true,
     "dc:description": "to_stop_id"
    }, 
    {
@@ -109,6 +111,7 @@
     ], 
     "@id": "https://iisg.amsterdam/transfers.csv/column/transfer_type", 
     "name": "transfer_type", 
+    "required": true,
     "dc:description": "transfer_type"
    }, 
    {
