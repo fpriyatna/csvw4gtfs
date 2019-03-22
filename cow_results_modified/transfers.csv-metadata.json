@@ -115,7 +115,7 @@
     "dc:description": "transfer_type"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "min_transfer_time"
     ], 
@@ -123,6 +123,24 @@
     "name": "min_transfer_time", 
     "dc:description": "min_transfer_time"
    }
+  ]
+  ,
+  "foreignKeys": [
+    {
+      "columnReference": "from_stop_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }
+    ,
+    {
+      "columnReference": "to_stop_id",
+      "reference": {
+        "resource": "stops.csv",
+        "columnReference": "stop_id"
+      }
+    }
   ]
  }
 }
