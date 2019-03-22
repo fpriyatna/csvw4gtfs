@@ -95,7 +95,7 @@
     "dc:description": "fare_id"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "price"
     ], 
@@ -135,7 +135,7 @@
     "dc:description": "transfers"
    }, 
    {
-    "datatype": "string", 
+    "datatype": "integer", 
     "titles": [
      "transfer_duration"
     ], 
