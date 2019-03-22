@@ -95,7 +95,10 @@
     "dc:description": "service_id"
    }, 
    {
-    "datatype": "date", 
+    "datatype": {
+      "base": "date",
+       "format": "YYYYMMDD"
+    },
     "titles": [
      "date"
     ], 

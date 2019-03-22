@@ -95,7 +95,10 @@
     "dc:description": "trip_id"
    }, 
    {
-    "datatype": "time", 
+    "datatype": {
+      "base": "time",
+       "format": "HH:MM:SS"
+    },    
     "titles": [
      "start_time"
     ], 
@@ -105,7 +108,10 @@
     "dc:description": "start_time"
    }, 
    {
-    "datatype": "time", 
+    "datatype": {
+      "base": "time",
+       "format": "HH:MM:SS"
+    },    
     "titles": [
      "end_time"
     ], 

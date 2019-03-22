@@ -95,7 +95,10 @@
     "dc:description": "trip_id"
    }, 
    {
-    "datatype": "time", 
+    "datatype": {
+      "base": "time",
+      "format": "HH:MM:SS"
+    },
     "titles": [
      "arrival_time"
     ], 
@@ -105,7 +108,10 @@
     "dc:description": "arrival_time"
    }, 
    {
-    "datatype": "time", 
+    "datatype": {
+      "base": "time",
+      "format": "HH:MM:SS"
+    },
     "titles": [
      "departure_time"
     ], 
